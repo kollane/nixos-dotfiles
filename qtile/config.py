@@ -80,7 +80,8 @@ keys = [
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     Key([mod], "b", lazy.spawn("firefox")), 
     Key([mod], "f", lazy.spawn("pcmanfm")),
-    Key([mod], "d", lazy.spawn("rofi -show drun")), 
+    Key([mod], "d", lazy.spawn("rofi -show drun")),
+    Key([mod], "p", lazy.spawn("flameshot gui")),
 ]
 
 # Add key bindings to switch VTs in Wayland.
